@@ -75,7 +75,7 @@ export const LeadDetailPanel: React.FC = () => {
       title: `Call completed (${outcome})`,
       subtitle: noteText ? `Note: "${noteText}" • Duration: ${formattedDuration}` : `Call duration: ${formattedDuration}`,
       author: 'Rohan Mehta',
-      timestamp: 'Just now',
+      timestamp: 'Oct 08, 2026, 11:28 AM',
       outcome
     };
 
@@ -96,7 +96,7 @@ export const LeadDetailPanel: React.FC = () => {
       title: 'Note added',
       subtitle: noteText,
       author: 'Rohan Mehta',
-      timestamp: 'Just now'
+      timestamp: 'Oct 08, 2026, 11:28 AM'
     };
     setTimelineItems([newTimelineItem, ...timelineItems]);
     showToast('Note added to timeline');

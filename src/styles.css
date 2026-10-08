@@ -43,6 +43,26 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+button,
+.btn-primary-cta,
+.btn-secondary-action,
+.option-item,
+.outcome-pill,
+.tab-btn,
+.chip-quick,
+.show-more-toggle,
+.badge-fresh,
+.assignee-select,
+.btn-edit-link,
+.btn-copy,
+.link-why,
+.control-item {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
 /* App Canvas Layout */
 .app-container {
   display: flex;
@@ -201,7 +221,7 @@ body {
 
 /* Main Content Scrollable Area */
 .panel-content {
-  padding: 0 24px 24px 24px;
+  padding: 0 24px 100px 24px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1201,10 +1221,15 @@ body {
 
   .lead-header,
   .stage-progress-container,
-  .panel-content,
   .bottom-workflow-bar {
     padding-left: 16px;
     padding-right: 16px;
+  }
+
+  .panel-content {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 120px;
   }
 
   .secondary-actions-grid {

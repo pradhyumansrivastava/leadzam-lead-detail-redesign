@@ -5,7 +5,7 @@ export const initialLead: Lead = {
   name: 'Ananya Iyer',
   stage: 'Fresh',
   assignee: 'Unassigned',
-  createdAt: 'Dec 10, 2024, 10:24 AM',
+  createdAt: 'Oct 08, 2026, 10:24 AM',
   phone: '+91 91234 56789',
   email: 'ananya.iyer@example.com',
   location: 'Bengaluru, Karnataka',
@@ -23,7 +23,7 @@ export const initialTimelineItems: TimelineItem[] = [
     title: 'Lead created',
     subtitle: 'Lead added via website',
     author: 'System',
-    timestamp: 'Dec 10, 2024, 10:24 AM'
+    timestamp: 'Oct 08, 2026, 10:24 AM'
   },
   {
     id: '2',
@@ -31,7 +31,7 @@ export const initialTimelineItems: TimelineItem[] = [
     title: 'Call attempt',
     subtitle: 'No answer',
     author: 'Rohan Mehta',
-    timestamp: 'Dec 10, 2024, 11:02 AM'
+    timestamp: 'Oct 08, 2026, 11:02 AM'
   },
   {
     id: '3',
@@ -39,6 +39,6 @@ export const initialTimelineItems: TimelineItem[] = [
     title: 'Note added',
     subtitle: 'Tried calling, no response. Will follow up tomorrow.',
     author: 'Rohan Mehta',
-    timestamp: 'Dec 10, 2024, 11:05 AM'
+    timestamp: 'Oct 08, 2026, 11:05 AM'
   }
 ];
