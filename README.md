@@ -1,22 +1,13 @@
-# LeadZam Lead Detail Redesign
+LeadZam Lead Detail Redesign
 
 High-fidelity frontend implementation of the redesigned LeadZam **Lead Detail panel** created for the LeadZam UI/UX & Frontend Intern assessment.
 
----
 
-## Overview
+Overview
 
-This project is a focused, production-quality frontend prototype demonstrating the redesigned Lead Detail workflow for LeadZam CRM. It reflects the visual layout, typography, colors, component hierarchy, states, and responsive behavior specified in the five reference PNG designs:
+This project is a focused, production-quality frontend prototype demonstrating the redesigned Lead Detail workflow for LeadZam CRM. It reflects the visual layout, typography, colors, component hierarchy, states, and responsive behavior specified in the five reference PNG designs. Reference PNGs were used during the design and implementation process and are intentionally excluded from the repository.
 
-1. **Default Lead Detail** (`01-default.png.png`)
-2. **Call Options** (`02-call-options.png.png`)
-3. **Calling State** (`03-calling.png.png`)
-4. **Call Completed / After Call** (`04-call-completed.png.png`)
-5. **Mobile Responsive** (`05-mobile.png.png`)
-
----
-
-## Problem
+Problem
 
 In the original LeadZam experience, multiple actions competed for equal visual emphasis:
 - Call
@@ -27,9 +18,8 @@ In the original LeadZam experience, multiple actions competed for equal visual e
 
 This caused cognitive friction for sales representatives, obscuring the primary objective of immediately calling new/fresh leads.
 
----
 
-## Solution
+Solution
 
 The redesign establishes a clear action hierarchy:
 
@@ -40,9 +30,8 @@ The redesign establishes a clear action hierarchy:
 
 This hierarchy streamlines sales rep workflows and reduces decision fatigue when reviewing lead profiles.
 
----
 
-## Features
+Features
 
 - **Interactive Lead Detail Panel:**
   - Header with lead name (*Ananya Iyer*), stage badge (*Fresh*), Lead ID (*#72*), assignee dropdown, and creation timestamp.
@@ -65,9 +54,8 @@ This hierarchy streamlines sales rep workflows and reduces decision fatigue when
   - Fluid responsive design tested across 390px mobile, 768px tablet, and 1440px desktop viewports.
   - Adapted 2x2 grid for secondary actions and 1-column lead information stack matching `05-mobile.png.png`.
 
----
 
-## Tech Stack
+Tech Stack
 
 - **React 18** (Functional components, hooks, clean React state management)
 - **TypeScript** (Strict type definitions for Lead, TimelineItem, CallState, CallOutcome)
@@ -75,15 +63,16 @@ This hierarchy streamlines sales rep workflows and reduces decision fatigue when
 - **HTML5 & CSS3** (Custom CSS variables, Flexbox, CSS Grid, media queries matching reference designs)
 - **Lucide React** (Clean SVG icon set matching reference designs)
 
----
 
-## Run Locally
+Run Locally
 
-### Prerequisites
+
+Prerequisites
 - Node.js (v18 or higher recommended)
 - npm or yarn
 
-### Installation & Execution
+
+Installation & Execution
 
 1. **Install dependencies:**
    ```bash
@@ -101,9 +90,7 @@ This hierarchy streamlines sales rep workflows and reduces decision fatigue when
    npm run build
    ```
 
----
-
-## Project Structure
+Project Structure
 
 ```
 .
