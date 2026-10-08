@@ -94,11 +94,7 @@ Project Structure
 
 ```
 .
-├── 01-default.png.png          # Reference Image 1: Default Lead Detail
-├── 02-call-options.png.png     # Reference Image 2: Call Options Dropdown
-├── 03-calling.png.png          # Reference Image 3: Active Calling State
-├── 04-call-completed.png.png   # Reference Image 4: Completed Call Summary
-├── 05-mobile.png.png         # Reference Image 5: Mobile Responsive
+├── Reference PNGs were used during the design and implementation process and are intentionally excluded from the repository.
 ├── src/
 │   ├── components/
 │   │   ├── LeadDetailPanel.tsx      # Main panel orchestrator & state manager
