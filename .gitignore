@@ -2,3 +2,8 @@ node_modules
 dist
 .DS_Store
 *.log
+01-default.png.png
+02-call-options.png.png
+03-calling.png.png
+04-call-completed.png.png
+05-mobile.png.png
